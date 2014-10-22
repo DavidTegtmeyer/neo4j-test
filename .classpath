@@ -1,14 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-  <classpathentry output="target\scala-2.11\classes" kind="src" path="src\main\scala"/>
-  <classpathentry output="target\scala-2.11\classes" kind="src" path="src\main\java"/>
-  <classpathentry output="target\scala-2.11\test-classes" kind="src" path="src\test\scala"/>
-  <classpathentry output="target\scala-2.11\test-classes" kind="src" path="src\test\java"/>
-  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
-  <classpathentry sourcepath="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-kernel\srcs\neo4j-kernel-2.1.5-sources.jar" kind="lib" path="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-kernel\jars\neo4j-kernel-2.1.5.jar"/>
-  <classpathentry sourcepath="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-primitive-collections\srcs\neo4j-primitive-collections-2.1.5-sources.jar" kind="lib" path="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-primitive-collections\jars\neo4j-primitive-collections-2.1.5.jar"/>
-  <classpathentry sourcepath="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\srcs\geronimo-jta_1.1_spec-1.1.1-sources.jar" kind="lib" path="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\jars\geronimo-jta_1.1_spec-1.1.1.jar"/>
-  <classpathentry sourcepath="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-lucene-index\srcs\neo4j-lucene-index-2.1.5-sources.jar" kind="lib" path="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-lucene-index\jars\neo4j-lucene-index-2.1.5.jar"/>
-  <classpathentry sourcepath="D:\Users\David\.ivy2\cache\org.apache.lucene\lucene-core\srcs\lucene-core-3.6.2-sources.jar" kind="lib" path="D:\Users\David\.ivy2\cache\org.apache.lucene\lucene-core\jars\lucene-core-3.6.2.jar"/>
-  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-  <classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" output="target/scala-2.11/classes" path="src/main/scala"/>
+	<classpathentry kind="src" output="target/scala-2.11/classes" path="src/main/java"/>
+	<classpathentry kind="src" output="target/scala-2.11/test-classes" path="src/test/scala"/>
+	<classpathentry kind="src" output="target/scala-2.11/test-classes" path="src/test/java"/>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j/jars/neo4j-2.1.5.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j/srcs/neo4j-2.1.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-kernel/jars/neo4j-kernel-2.1.5.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-kernel/srcs/neo4j-kernel-2.1.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-primitive-collections/jars/neo4j-primitive-collections-2.1.5.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-primitive-collections/srcs/neo4j-primitive-collections-2.1.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.apache.geronimo.specs/geronimo-jta_1.1_spec/jars/geronimo-jta_1.1_spec-1.1.1.jar" sourcepath="D:/Users/David/.ivy2/cache/org.apache.geronimo.specs/geronimo-jta_1.1_spec/srcs/geronimo-jta_1.1_spec-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-lucene-index/jars/neo4j-lucene-index-2.1.5.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-lucene-index/srcs/neo4j-lucene-index-2.1.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-3.6.2.jar" sourcepath="D:/Users/David/.ivy2/cache/org.apache.lucene/lucene-core/srcs/lucene-core-3.6.2-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-graph-algo/jars/neo4j-graph-algo-2.1.5.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-graph-algo/srcs/neo4j-graph-algo-2.1.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-udc/jars/neo4j-udc-2.1.5.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-udc/srcs/neo4j-udc-2.1.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-graph-matching/jars/neo4j-graph-matching-2.1.5.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-graph-matching/srcs/neo4j-graph-matching-2.1.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-cypher/jars/neo4j-cypher-2.1.5.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-cypher/srcs/neo4j-cypher-2.1.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-cypher-commons/jars/neo4j-cypher-commons-2.1.5.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-cypher-commons/srcs/neo4j-cypher-commons-2.1.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/jars/concurrentlinkedhashmap-lru-1.3.1.jar" sourcepath="D:/Users/David/.ivy2/cache/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/srcs/concurrentlinkedhashmap-lru-1.3.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-cypher-compiler-1.9/jars/neo4j-cypher-compiler-1.9-2.0.3.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-cypher-compiler-1.9/srcs/neo4j-cypher-compiler-1.9-2.0.3-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-cypher-compiler-2.0/jars/neo4j-cypher-compiler-2.0-2.0.3.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-cypher-compiler-2.0/srcs/neo4j-cypher-compiler-2.0-2.0.3-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-cypher-compiler-2.1/jars/neo4j-cypher-compiler-2.1-2.1.5.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-cypher-compiler-2.1/srcs/neo4j-cypher-compiler-2.1-2.1.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/net.sf.opencsv/opencsv/jars/opencsv-2.3.jar" sourcepath="D:/Users/David/.ivy2/cache/net.sf.opencsv/opencsv/srcs/opencsv-2.3-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-jmx/jars/neo4j-jmx-2.1.5.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-jmx/srcs/neo4j-jmx-2.1.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-jdbc/jars/neo4j-jdbc-2.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.restlet.jse/org.restlet/jars/org.restlet-2.1.7.jar" sourcepath="D:/Users/David/.ivy2/cache/org.restlet.jse/org.restlet/srcs/org.restlet-2.1.7-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.restlet.jse/org.restlet.ext.httpclient/jars/org.restlet.ext.httpclient-2.1.7.jar" sourcepath="D:/Users/David/.ivy2/cache/org.restlet.jse/org.restlet.ext.httpclient/srcs/org.restlet.ext.httpclient-2.1.7-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.5.jar" sourcepath="D:/Users/David/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.1.1.jar" sourcepath="D:/Users/David/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.1.jar" sourcepath="D:/Users/David/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar" sourcepath="D:/Users/David/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.apache.httpcomponents/httpmime/jars/httpmime-4.1.1.jar" sourcepath="D:/Users/David/.ivy2/cache/org.apache.httpcomponents/httpmime/srcs/httpmime-4.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/net.jcip/jcip-annotations/jars/jcip-annotations-1.0.jar" sourcepath="D:/Users/David/.ivy2/cache/net.jcip/jcip-annotations/srcs/jcip-annotations-1.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.apache.james/apache-mime4j/jars/apache-mime4j-0.6.jar" sourcepath="D:/Users/David/.ivy2/cache/org.apache.james/apache-mime4j/srcs/apache-mime4j-0.6-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.restlet.jse/org.restlet.ext.ssl/jars/org.restlet.ext.ssl-2.1.7.jar" sourcepath="D:/Users/David/.ivy2/cache/org.restlet.jse/org.restlet.ext.ssl/srcs/org.restlet.ext.ssl-2.1.7-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.jsslutils/jsslutils/bundles/jsslutils-1.0.5.jar" sourcepath="D:/Users/David/.ivy2/cache/org.jsslutils/jsslutils/srcs/jsslutils-1.0.5-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-cypher-dsl/jars/neo4j-cypher-dsl-2.0.0.jar" sourcepath="D:/Users/David/.ivy2/cache/org.neo4j/neo4j-cypher-dsl/srcs/neo4j-cypher-dsl-2.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.12.jar" sourcepath="D:/Users/David/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/srcs/jackson-core-asl-1.9.12-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Users/David/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.12.jar" sourcepath="D:/Users/David/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/srcs/jackson-mapper-asl-1.9.12-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>

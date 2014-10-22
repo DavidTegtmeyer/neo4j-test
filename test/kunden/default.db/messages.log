@@ -662,3 +662,28 @@ Storage files: (filename : modification date - size)
       - Total: 2014-10-22T14:31:42+0200 - 52,00 B
       store_lock: 2014-10-22T14:31:35+0200 - 0,00 B
       tm_tx_log.1: 2014-10-22T14:39:15+0200 - 0,00 B
+2014-10-22 12:39:15.194+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2014-10-22 12:39:15.256+0000 INFO  [org.neo4j]: Database is now ready
+2014-10-22 13:13:21.396+0000 INFO  [org.neo4j]: Shutdown started
+2014-10-22 13:13:21.396+0000 INFO  [org.neo4j]: Database is now unavailable
+2014-10-22 13:13:21.521+0000 INFO  [org.neo4j]: Closed log test\kunden\default.db\index\lucene.log
+2014-10-22 13:13:21.708+0000 INFO  [org.neo4j]: TM shutting down
+2014-10-22 13:13:22.521+0000 INFO  [org.neo4j]: Closed log test\kunden\default.db\nioneo_logical.log
+2014-10-22 13:13:22.927+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:23.177+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:23.443+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:23.661+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:23.825+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:23.981+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:24.137+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:24.262+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:24.387+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:24.528+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:24.684+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:24.856+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:24.997+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.schemastore.db hit=0 miss=2 switches=0 ooe=0
+2014-10-22 13:13:25.247+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore.relationshipgroupstore.db hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:25.372+0000 INFO  [org.neo4j]: test\kunden\default.db\neostore hit=0 miss=16 switches=0 ooe=0
+2014-10-22 13:13:25.481+0000 INFO  [org.neo4j]: NeoStore closed
+2014-10-22 13:13:25.481+0000 INFO  [org.neo4j]: --- STOPPING diagnostics START ---
+2014-10-22 13:13:25.481+0000 INFO  [org.neo4j]: --- STOPPING diagnostics END ---

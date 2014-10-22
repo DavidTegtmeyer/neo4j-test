@@ -4,7 +4,7 @@
 		module="neo4j-test_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20141022142553"
+		publication="20141022153229"
 	>
 		<description>
 		neo4j-test
@@ -34,7 +34,8 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.1" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.1" conf="scala-tool->default,optional(default);compile->default(compile)"/>
-		<dependency org="org.neo4j" name="neo4j-kernel" rev="2.1.5" conf="compile->default(compile)"/>
-		<dependency org="org.neo4j" name="neo4j-lucene-index" rev="2.1.5" conf="compile->default(compile)"/>
+		<dependency org="org.neo4j" name="neo4j" rev="2.1.5" conf="compile->default(compile)"/>
+		<dependency org="org.neo4j" name="neo4j-jdbc" rev="2.1.4" conf="compile->default(compile)"/>
+		<dependency org="org.restlet.jse" name="org.restlet" rev="2.1.7" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

@@ -1278,3 +1278,28 @@ Storage files: (filename : modification date - size)
       - Total: 2014-10-22T14:54:56+0200 - 52,00 B
       store_lock: 2014-10-22T14:54:48+0200 - 0,00 B
       tm_tx_log.1: 2014-10-22T14:59:34+0200 - 0,00 B
+2014-10-22 12:59:34.151+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2014-10-22 12:59:34.230+0000 INFO  [org.neo4j]: Database is now ready
+2014-10-22 13:13:19.895+0000 INFO  [org.neo4j]: Shutdown started
+2014-10-22 13:13:19.895+0000 INFO  [org.neo4j]: Database is now unavailable
+2014-10-22 13:13:20.114+0000 INFO  [org.neo4j]: Closed log data\graph.db\index\lucene.log
+2014-10-22 13:13:20.161+0000 INFO  [org.neo4j]: TM shutting down
+2014-10-22 13:13:20.458+0000 INFO  [org.neo4j]: Closed log data\graph.db\nioneo_logical.log
+2014-10-22 13:13:20.536+0000 INFO  [org.neo4j]: data\graph.db\neostore.relationshiptypestore.db.names hit=0 miss=2 switches=0 ooe=0
+2014-10-22 13:13:20.708+0000 INFO  [org.neo4j]: data\graph.db\neostore.relationshiptypestore.db hit=0 miss=1 switches=0 ooe=0
+2014-10-22 13:13:20.833+0000 INFO  [org.neo4j]: data\graph.db\neostore.labeltokenstore.db.names hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:20.974+0000 INFO  [org.neo4j]: data\graph.db\neostore.labeltokenstore.db hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:21.099+0000 INFO  [org.neo4j]: data\graph.db\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:21.208+0000 INFO  [org.neo4j]: data\graph.db\neostore.propertystore.db.index.keys hit=0 miss=2 switches=0 ooe=0
+2014-10-22 13:13:21.349+0000 INFO  [org.neo4j]: data\graph.db\neostore.propertystore.db.index hit=0 miss=1 switches=0 ooe=0
+2014-10-22 13:13:21.536+0000 INFO  [org.neo4j]: data\graph.db\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:22.036+0000 INFO  [org.neo4j]: data\graph.db\neostore.propertystore.db hit=3 miss=0 switches=0 ooe=0
+2014-10-22 13:13:22.442+0000 INFO  [org.neo4j]: data\graph.db\neostore.relationshipstore.db hit=1 miss=0 switches=0 ooe=0
+2014-10-22 13:13:22.661+0000 INFO  [org.neo4j]: data\graph.db\neostore.nodestore.db.labels hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:22.817+0000 INFO  [org.neo4j]: data\graph.db\neostore.nodestore.db hit=2 miss=0 switches=0 ooe=0
+2014-10-22 13:13:23.036+0000 INFO  [org.neo4j]: data\graph.db\neostore.schemastore.db hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:23.239+0000 INFO  [org.neo4j]: data\graph.db\neostore.relationshipgroupstore.db hit=0 miss=0 switches=0 ooe=0
+2014-10-22 13:13:23.474+0000 INFO  [org.neo4j]: data\graph.db\neostore hit=0 miss=18 switches=0 ooe=0
+2014-10-22 13:13:23.677+0000 INFO  [org.neo4j]: NeoStore closed
+2014-10-22 13:13:23.677+0000 INFO  [org.neo4j]: --- STOPPING diagnostics START ---
+2014-10-22 13:13:23.677+0000 INFO  [org.neo4j]: --- STOPPING diagnostics END ---

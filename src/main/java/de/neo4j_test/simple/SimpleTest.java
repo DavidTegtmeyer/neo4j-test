@@ -1,5 +1,9 @@
 package de.neo4j_test.simple;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.Properties;
+
 import javax.swing.JOptionPane;
 
 import org.neo4j.graphdb.GraphDatabaseService;
@@ -8,7 +12,8 @@ import org.neo4j.graphdb.Relationship;
 import org.neo4j.graphdb.RelationshipType;
 import org.neo4j.graphdb.Transaction;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
-import 
+import org.neo4j.jdbc.Driver;
+import org.neo4j.jdbc.Neo4jConnection;
 
 public class SimpleTest {
 	private static String DB_PATH = "db/data";
@@ -18,8 +23,14 @@ public class SimpleTest {
 	}
 	public static void main(String[] args) {
 		Neo4jConnection connect=null;
-		connect = new Driver(). connect(DB_URL, new Properties());
-		ResultSet resultSet=connect.createStatement().executeQuery("YOUR QUERY");
+		try {
+			connect = new Driver(). connect(DB_PATH, new Properties());
+			ResultSet resultSet=connect.createStatement().executeQuery("CREATE (n {name:\"javaQuery\"}) RETURN \"hello\", n.name");
+			System.out.println(resultSet);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		// usingGraphDBService();
 	}
 
