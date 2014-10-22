@@ -4,7 +4,7 @@
 		module="neo4j-test$sources_javadoc_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20141022135207"
+		publication="20141022142602"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -39,6 +39,14 @@
 		<dependency org="org.apache.geronimo.specs" name="geronimo-jta_1.1_spec" rev="1.1.1" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="geronimo-jta_1.1_spec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 			<artifact name="geronimo-jta_1.1_spec" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.neo4j" name="neo4j-lucene-index" rev="2.1.5" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="neo4j-lucene-index" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="neo4j-lucene-index" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		</dependency>
+		<dependency org="org.apache.lucene" name="lucene-core" rev="3.6.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+			<artifact name="lucene-core" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+			<artifact name="lucene-core" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 		</dependency>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.1" transitive="false" conf="scala-tool->default(compile)">
 			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>

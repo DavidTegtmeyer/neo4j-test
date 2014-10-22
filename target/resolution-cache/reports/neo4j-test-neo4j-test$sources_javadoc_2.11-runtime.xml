@@ -7,8 +7,43 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20141022135207"/>
+		date="20141022142602"/>
 	<dependencies>
+		<module organisation="org.neo4j" name="neo4j-lucene-index">
+			<revision name="2.1.5" status="release" pubdate="20140930124419" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://components.neo4j.org/${project.artifactId}/${project.version}" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="4">
+				<license name="GNU General Public License, Version 3" url="http://www.gnu.org/licenses/gpl-3.0-standalone.html"/>
+				<metadata-artifact status="no" details="" size="23743" time="0" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-lucene-index\ivy-2.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/neo4j/neo4j-lucene-index/2.1.5/neo4j-lucene-index-2.1.5.pom"/>
+				<caller organisation="neo4j-test" name="neo4j-test$sources_javadoc_2.11" conf="compile, runtime" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="neo4j-lucene-index" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="403652" time="718" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-lucene-index\docs\neo4j-lucene-index-2.1.5-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/neo4j/neo4j-lucene-index/2.1.5/neo4j-lucene-index-2.1.5-javadoc.jar"/>
+					</artifact>
+					<artifact name="neo4j-lucene-index" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="161031" time="657" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-lucene-index\srcs\neo4j-lucene-index-2.1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/neo4j/neo4j-lucene-index/2.1.5/neo4j-lucene-index-2.1.5-sources.jar"/>
+					</artifact>
+					<artifact name="neo4j-lucene-index" type="jar" ext="jar" status="no" details="" size="256383" time="0" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-lucene-index\jars\neo4j-lucene-index-2.1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/neo4j/neo4j-lucene-index/2.1.5/neo4j-lucene-index-2.1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="3.6.2" status="release" pubdate="20121224165635" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="5">
+				<metadata-artifact status="no" details="" size="19241" time="0" location="D:\Users\David\.ivy2\cache\org.apache.lucene\lucene-core\ivy-3.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/3.6.2/lucene-core-3.6.2.pom"/>
+				<caller organisation="neo4j-test" name="neo4j-test$sources_javadoc_2.11" conf="compile, runtime" rev="3.6.2" rev-constraint-default="3.6.2" rev-constraint-dynamic="3.6.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lucene-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1431379" time="969" location="D:\Users\David\.ivy2\cache\org.apache.lucene\lucene-core\srcs\lucene-core-3.6.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/3.6.2/lucene-core-3.6.2-sources.jar"/>
+					</artifact>
+					<artifact name="lucene-core" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="3648427" time="1765" location="D:\Users\David\.ivy2\cache\org.apache.lucene\lucene-core\docs\lucene-core-3.6.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/3.6.2/lucene-core-3.6.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="lucene-core" type="jar" ext="jar" status="no" details="" size="1539086" time="0" location="D:\Users\David\.ivy2\cache\org.apache.lucene\lucene-core\jars\lucene-core-3.6.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/3.6.2/lucene-core-3.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.neo4j" name="neo4j-kernel">
 			<revision name="2.1.5" status="release" pubdate="20140930124348" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://components.neo4j.org/${project.artifactId}/${project.version}" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
 				<license name="GNU General Public License, Version 3" url="http://www.gnu.org/licenses/gpl-3.0-standalone.html"/>
@@ -29,7 +64,7 @@
 		</module>
 		<module organisation="org.apache.geronimo.specs" name="geronimo-jta_1.1_spec">
 			<revision name="1.1.1" status="release" pubdate="20080207022654" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="3">
-				<metadata-artifact status="successful" details="" size="2111" time="531" location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\ivy-1.1.1.xml" searched="true" original-local-location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom"/>
+				<metadata-artifact status="successful" details="" size="2111" time="328" location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\ivy-1.1.1.xml" searched="true" original-local-location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom"/>
 				<caller organisation="neo4j-test" name="neo4j-test$sources_javadoc_2.11" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="geronimo-jta_1.1_spec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21755" time="0" location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\srcs\geronimo-jta_1.1_spec-1.1.1-sources.jar">

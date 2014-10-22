@@ -8,6 +8,8 @@ resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repos
 
 libraryDependencies += "org.neo4j" % "neo4j-kernel" % "2.1.5"
 
+libraryDependencies += "org.neo4j" % "neo4j-lucene-index" % "2.1.5"
+
 EclipseKeys.withSource := true
 
 EclipseKeys.withBundledScalaContainers := true

@@ -1,0 +1,14 @@
+<classpath>
+  <classpathentry output="target\scala-2.11\classes" kind="src" path="src\main\scala"/>
+  <classpathentry output="target\scala-2.11\classes" kind="src" path="src\main\java"/>
+  <classpathentry output="target\scala-2.11\test-classes" kind="src" path="src\test\scala"/>
+  <classpathentry output="target\scala-2.11\test-classes" kind="src" path="src\test\java"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+  <classpathentry sourcepath="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-kernel\srcs\neo4j-kernel-2.1.5-sources.jar" kind="lib" path="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-kernel\jars\neo4j-kernel-2.1.5.jar"/>
+  <classpathentry sourcepath="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-primitive-collections\srcs\neo4j-primitive-collections-2.1.5-sources.jar" kind="lib" path="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-primitive-collections\jars\neo4j-primitive-collections-2.1.5.jar"/>
+  <classpathentry sourcepath="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\srcs\geronimo-jta_1.1_spec-1.1.1-sources.jar" kind="lib" path="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\jars\geronimo-jta_1.1_spec-1.1.1.jar"/>
+  <classpathentry sourcepath="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-lucene-index\srcs\neo4j-lucene-index-2.1.5-sources.jar" kind="lib" path="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-lucene-index\jars\neo4j-lucene-index-2.1.5.jar"/>
+  <classpathentry sourcepath="D:\Users\David\.ivy2\cache\org.apache.lucene\lucene-core\srcs\lucene-core-3.6.2-sources.jar" kind="lib" path="D:\Users\David\.ivy2\cache\org.apache.lucene\lucene-core\jars\lucene-core-3.6.2.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>

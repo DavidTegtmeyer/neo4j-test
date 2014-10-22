@@ -1,0 +1,188 @@
+2014-10-22 12:13:26.296+0000 INFO  [org.neo4j]: No locking implementation specified, defaulting to 'community'
+2014-10-22 12:13:26.408+0000 INFO  [org.neo4j]: --- INITIALIZED diagnostics START ---
+2014-10-22 12:13:26.410+0000 INFO  [org.neo4j]: Neo4j Kernel properties:
+    neostore.propertystore.db.mapped_memory=111M
+    read_only=true
+    neostore.nodestore.db.mapped_memory=30M
+    neostore.relationshipstore.db.mapped_memory=135M
+    neostore.propertystore.db.strings.mapped_memory=94M
+    store_dir=target/read-only-db/location
+    neostore.propertystore.db.arrays.mapped_memory=107M
+    ephemeral=false
+2014-10-22 12:13:26.413+0000 INFO  [org.neo4j]: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+2014-10-22 12:13:26.414+0000 INFO  [org.neo4j]: System memory information:
+    Total Physical memory: 7,95 GB
+    Free Physical memory: 4,01 GB
+    Committed virtual memory: 258,84 MB
+    Total swap space: 9,20 GB
+    Free swap space: 3,96 GB
+2014-10-22 12:13:26.418+0000 INFO  [org.neo4j]: JVM memory information:
+    Free  memory: 107,09 MB
+    Total memory: 122,00 MB
+    Max   memory: 1,77 GB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2,44 MB, used=460,00 kB, max=48,00 MB, threshold=0,00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=32,50 MB, used=14,91 MB, max=669,00 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=5,00 MB, used=0,00 B, max=5,00 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=84,50 MB, used=0,00 B, max=1,33 GB, threshold=0,00 B
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=21,00 MB, used=6,23 MB, max=82,00 MB, threshold=0,00 B
+2014-10-22 12:13:26.488+0000 INFO  [org.neo4j]: Operating system information:
+    Operating System: Windows 8; version: 6.2; arch: amd64; cpus: 8
+    Process id: 1756@David-PC
+    Byte order: LITTLE_ENDIAN
+    Local timezone: Europe/Berlin
+2014-10-22 12:13:26.498+0000 INFO  [org.neo4j]: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 24.51-b03
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-Dfile.encoding=Cp1252, -Xbootclasspath/p:D:\Program Files (x86)\eclipse-Scala\plugins\org.scala-lang.scala-library_2.11.2.v20140721-095018-73fb460c1c.jar;D:\Program Files (x86)\eclipse-Scala\plugins\org.scala-lang.scala-reflect_2.11.2.v20140721-095018-73fb460c1c.jar;D:\Program Files (x86)\eclipse-Scala\plugins\org.scala-lang.scala-actors_2.11.2.v20140721-095018-73fb460c1c.jar;D:\Program Files (x86)\eclipse-Scala\configuration\org.eclipse.osgi\bundles\286\1\.cp\target\lib\scala-swing.jar]
+2014-10-22 12:13:26.499+0000 INFO  [org.neo4j]: Java classpath:
+     [bootstrap] D:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar
+     [bootstrap] D:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar
+     [loader.1] file:/D:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/sunmscapi.jar
+     [loader.1] file:/D:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/localedata.jar
+     [classpath + loader.0] file:/D:/Users/David/.ivy2/cache/org.neo4j/neo4j-primitive-collections/jars/neo4j-primitive-collections-2.1.5.jar
+     [classpath + loader.0] file:/D:/neo4j_test/bin
+     [loader.1] file:/D:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/sunjce_provider.jar
+     [bootstrap] D:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar
+     [loader.1] file:/D:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/access-bridge-64.jar
+     [loader.1] file:/D:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/jaccess.jar
+     [bootstrap] D:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar
+     [bootstrap] D:\Program Files\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar
+     [classpath + loader.0] file:/D:/Users/David/Documents/Workspaces/neo4j_test/neo4j_test/target/scala-2.11/classes/
+     [bootstrap] D:\Program Files\Java\jdk1.7.0_51\jre\classes
+     [loader.1] file:/D:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/dnsns.jar
+     [bootstrap] D:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar
+     [bootstrap] D:\Program Files (x86)\eclipse-Scala\plugins\org.scala-lang.scala-actors_2.11.2.v20140721-095018-73fb460c1c.jar
+     [bootstrap] D:\Program Files (x86)\eclipse-Scala\configuration\org.eclipse.osgi\bundles\286\1\.cp\target\lib\scala-swing.jar
+     [classpath + loader.0] file:/D:/Users/David/.ivy2/cache/org.apache.geronimo.specs/geronimo-jta_1.1_spec/jars/geronimo-jta_1.1_spec-1.1.1.jar
+     [bootstrap] D:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar
+     [loader.1] file:/D:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/zipfs.jar
+     [classpath + loader.0] file:/D:/Users/David/.ivy2/cache/org.neo4j/neo4j-kernel/jars/neo4j-kernel-2.1.5.jar
+     [bootstrap] D:\Program Files (x86)\eclipse-Scala\plugins\org.scala-lang.scala-library_2.11.2.v20140721-095018-73fb460c1c.jar
+     [classpath + loader.0] file:/D:/Users/David/Documents/Workspaces/neo4j_test/neo4j_test/target/scala-2.11/test-classes/
+     [bootstrap] D:\Program Files (x86)\eclipse-Scala\plugins\org.scala-lang.scala-reflect_2.11.2.v20140721-095018-73fb460c1c.jar
+     [loader.1] file:/D:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/sunec.jar
+2014-10-22 12:13:26.501+0000 INFO  [org.neo4j]: Library path:
+    D:\Program Files\Java\jdk1.7.0_51\bin
+    D:\Windows\Sun\Java\bin
+    D:\Windows\System32
+    D:\Windows
+    D:\Program Files\Java\jdk1.7.0_51\jre\bin\server
+    D:\Program Files\Java\jdk1.7.0_51\jre\bin
+    D:\Program Files\Java\jdk1.7.0_51\jre\lib\amd64
+    D:\Program Files\Java\jdk1.7.0_51\bin
+    D:\Windows\System32
+    D:\Windows
+    D:\Windows\System32\wbem
+    D:\Windows\System32\WindowsPowerShell\v1.0
+    D:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static
+    D:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit
+    D:\Program Files\Microsoft SQL Server\110\Tools\Binn
+    D:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0
+    D:\Program Files\TortoiseSVN\bin
+    D:\Program Files\Microsoft\Web Platform Installer
+    D:\FPC\2.6.4\bin\i386-win32
+    D:\Program Files\doxygen\bin
+    D:\Program Files (x86)\scala\bin
+    D:\Program Files (x86)\sbt\bin
+    D:\Program Files\apache-maven-3.2.3-bin\apache-maven-3.2.3\bin
+    D:\ProgramData\chocolatey\bin
+    D:\texlive\2014\bin\win32
+    D:\Program Files (x86)\eclipse-Scala
+    D:\Users\David\Documents\Workspaces\neo4j_test\neo4j_test
+    D:\Users\David\Documents\Workspaces\neo4j_test\neo4j_test
+2014-10-22 12:13:26.506+0000 INFO  [org.neo4j]: System.properties:
+    sun.boot.library.path = D:\Program Files\Java\jdk1.7.0_51\jre\bin
+    path.separator = ;
+    file.encoding.pkg = sun.io
+    user.country = DE
+    user.script = 
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = 
+    user.dir = D:\Users\David\Documents\Workspaces\neo4j_test\neo4j_test
+    user.variant = 
+    sun.jnu.encoding = Cp1252
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.home = D:\Users\David
+    user.timezone = Europe/Berlin
+    file.encoding = Cp1252
+    user.name = David
+    sun.java.command = de.neo4j_test.simple.SimpleTest
+    sun.arch.data.model = 64
+    user.language = de
+    awt.toolkit = sun.awt.windows.WToolkit
+    file.separator = \
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.desktop = windows
+    sun.cpu.isalist = amd64
+2014-10-22 12:13:26.507+0000 INFO  [org.neo4j]: Network information:
+    Interface Software Loopback Interface 1:
+        address: 127.0.0.1
+        address: 0:0:0:0:0:0:0:1
+    Interface Microsoft Kerneldebugger-Netzwerkadapter:
+    Interface Broadcom 4313GN 802.11b/g/n 1x1 Wi-Fi Adapter:
+        address: 192.168.178.32
+        address: fe80:0:0:0:298d:c293:778c:911f%3
+    Interface Controller der Familie Realtek PCIe GBE:
+        address: fe80:0:0:0:29d7:ecd8:6388:d51d%4
+    Interface WAN-Miniport (SSTP):
+    Interface WAN-Miniport (Netzwerkmonitor):
+    Interface WAN-Miniport (IKEv2):
+    Interface WAN-Miniport (IPv6):
+    Interface WAN-Miniport (PPTP):
+    Interface WAN-Miniport (L2TP):
+    Interface WAN-Miniport (IP):
+    Interface WAN-Miniport (PPPOE):
+    Interface Asynchroner RAS-Adapter:
+    Interface Von Microsoft gehosteter, virtueller Netzwerkadapter:
+        address: fe80:0:0:0:7c9f:246:75bf:8ae2%14
+    Interface Cisco Systems VPN Adapter for 64-bit Windows:
+    Interface Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64:
+    Interface WAN-Miniport (SSTP) #2:
+    Interface WAN-Miniport (L2TP) #2:
+    Interface WAN-Miniport (Netzwerkmonitor) #2:
+    Interface WAN-Miniport (IKEv2) #2:
+    Interface WAN-Miniport (IP) #2:
+    Interface WAN-Miniport (PPPOE) #2:
+    Interface WAN-Miniport (IPv6) #2:
+    Interface WAN-Miniport (PPTP) #2:
+    Interface Asynchroner RAS-Adapter #2:
+    Interface Controller der Familie Realtek PCIe GBE-WFP Native MAC Layer LightWeight Filter-0000:
+    Interface Controller der Familie Realtek PCIe GBE-QoS Packet Scheduler-0000:
+    Interface Controller der Familie Realtek PCIe GBE-WFP 802.3 MAC Layer LightWeight Filter-0000:
+    Interface Broadcom 4313GN 802.11b/g/n 1x1 Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+    Interface Broadcom 4313GN 802.11b/g/n 1x1 Wi-Fi Adapter-Virtual WiFi Filter Driver-0000:
+    Interface Broadcom 4313GN 802.11b/g/n 1x1 Wi-Fi Adapter-Native WiFi Filter Driver-0000:
+    Interface Broadcom 4313GN 802.11b/g/n 1x1 Wi-Fi Adapter-QoS Packet Scheduler-0000:
+    Interface Broadcom 4313GN 802.11b/g/n 1x1 Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+    Interface Von Microsoft gehosteter, virtueller Netzwerkadapter-WFP Native MAC Layer LightWeight Filter-0000:
+    Interface Von Microsoft gehosteter, virtueller Netzwerkadapter-Native WiFi Filter Driver-0000:
+    Interface Von Microsoft gehosteter, virtueller Netzwerkadapter-QoS Packet Scheduler-0000:
+    Interface Von Microsoft gehosteter, virtueller Netzwerkadapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2014-10-22 12:13:26.570+0000 INFO  [org.neo4j]: --- INITIALIZED diagnostics END ---
+2014-10-22 12:13:26.591+0000 INFO  [org.neo4j]: --- STOPPING diagnostics START ---
+2014-10-22 12:13:26.591+0000 INFO  [org.neo4j]: --- STOPPING diagnostics END ---
+2014-10-22 12:13:26.592+0000 INFO  [org.neo4j]: Startup failed: Component 'org.neo4j.kernel.impl.transaction.XaDataSourceManager@1f8dbaa6' was successfully initialized, but failed to start. Please see attached cause exception.: Component 'org.neo4j.kernel.impl.nioneo.xa.NeoStoreXaDataSource@4f735faa' was successfully initialized, but failed to start. Please see attached cause exception.: No schema index provider org.neo4j.kernel.api.index.SchemaIndexProvider found. Kernel extensions available on classpath: 
+
+Class path entries:
+  D:\Users\David\Documents\Workspaces\neo4j_test\neo4j_test\target\scala-2.11\classes
+  D:\Users\David\Documents\Workspaces\neo4j_test\neo4j_test\target\scala-2.11\test-classes
+  \neo4j_test\bin
+  D:\Users\David\.ivy2\cache\org.neo4j\neo4j-kernel\jars\neo4j-kernel-2.1.5.jar
+  D:\Users\David\.ivy2\cache\org.neo4j\neo4j-primitive-collections\jars\neo4j-primitive-collections-2.1.5.jar
+  D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\jars\geronimo-jta_1.1_spec-1.1.1.jar
+2014-10-22 12:13:26.592+0000 INFO  [org.neo4j]: Shutdown started
