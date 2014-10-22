@@ -6,7 +6,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56893f43[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49f8f036[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.1 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.1] org.scala-lang#scala-library;2.11.1[0m
@@ -15,7 +15,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.1 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT->org.neo4j#neo4j-kernel;2.1.5 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.neo4j#neo4j-kernel;2.1.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d8a0c95[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70f8300e[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.neo4j#neo4j-kernel;2.1.5[0m
 [0m[[0mdebug[0m] [0m	found org.neo4j#neo4j-kernel;2.1.5 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT->org.neo4j#neo4j-kernel;2.1.5 [compile->runtime][0m
@@ -23,7 +23,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT->org.neo4j#neo4j-kernel;2.1.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT->org.neo4j#neo4j-primitive-collections;2.1.5 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.neo4j#neo4j-primitive-collections;2.1.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@74d81ae8[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@cfa610f[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.neo4j#neo4j-primitive-collections;2.1.5[0m
 [0m[[0mdebug[0m] [0m	found org.neo4j#neo4j-primitive-collections;2.1.5 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT->org.neo4j#neo4j-primitive-collections;2.1.5 [compile->runtime][0m
@@ -31,9 +31,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT->org.neo4j#neo4j-primitive-collections;2.1.5 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT->org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@667f99c[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e73957a[0m
 [0m[[0minfo[0m] [0mResolving org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@667f99c[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: sbt.ivyint.MergedDescriptors@1e73957a[0m
 [0m[[0mdebug[0m] [0m		tried D:\Users\David\.ivy2\local\org.apache.geronimo.specs\geronimo-jta_1.1_spec\1.1.1\ivys\ivy.xml[0m
 [0m[[0mdebug[0m] [0m	local: no ivy file found for org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1[0m
 [0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom[0m
@@ -43,7 +43,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1!geronimo-jta_1.1_spec.pom(pom.original) (497ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1!geronimo-jta_1.1_spec.pom(pom.original) (531ms)[0m
 [0m[[0minfo[0m] [0mResolving org.apache.geronimo.specs#specs;1.4 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.geronimo.specs#specs;1.4 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.geronimo.specs#specs;1.4[0m
@@ -364,49 +364,15 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.1!scala-library.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.1!scala-library.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.1!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m		tried D:\Users\David\.ivy2\local\org.neo4j\neo4j-kernel\2.1.5\docs\neo4j-kernel-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.neo4j#neo4j-kernel;2.1.5!neo4j-kernel.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.neo4j#neo4j-kernel;2.1.5!neo4j-kernel.jar[0m
-[0m[[0mdebug[0m] [0m		tried D:\Users\David\.ivy2\local\org.neo4j\neo4j-kernel\2.1.5\srcs\neo4j-kernel-sources.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5-javadoc.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5-javadoc.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5-javadoc.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5-javadoc.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.neo4j#neo4j-kernel;2.1.5!neo4j-kernel.jar(doc) (1047ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5-sources.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5-sources.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5-sources.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5-sources.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5-sources.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.neo4j#neo4j-kernel;2.1.5!neo4j-kernel.jar(src) (1077ms)[0m
-[0m[[0mdebug[0m] [0m		tried D:\Users\David\.ivy2\local\org.neo4j\neo4j-primitive-collections\2.1.5\srcs\neo4j-primitive-collections-sources.jar[0m
-[0m[[0mdebug[0m] [0m		tried D:\Users\David\.ivy2\local\org.neo4j\neo4j-primitive-collections\2.1.5\docs\neo4j-primitive-collections-javadoc.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.neo4j#neo4j-kernel;2.1.5!neo4j-kernel.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.neo4j#neo4j-primitive-collections;2.1.5!neo4j-primitive-collections.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.neo4j#neo4j-primitive-collections;2.1.5!neo4j-primitive-collections.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.neo4j#neo4j-primitive-collections;2.1.5!neo4j-primitive-collections.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5-sources.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5-sources.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5-sources.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5-sources.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5-sources.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.neo4j#neo4j-primitive-collections;2.1.5!neo4j-primitive-collections.jar(src) (541ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5-javadoc.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5-javadoc.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5-javadoc.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5-javadoc.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.neo4j#neo4j-primitive-collections;2.1.5!neo4j-primitive-collections.jar(doc) (849ms)[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-sources.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-sources.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-sources.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-sources.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-sources.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1!geronimo-jta_1.1_spec.jar(src) (493ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1!geronimo-jta_1.1_spec.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1!geronimo-jta_1.1_spec.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-javadoc.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-javadoc.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-javadoc.jar[0m
-[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-javadoc.jar.sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-javadoc.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1!geronimo-jta_1.1_spec.jar(doc) (724ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.geronimo.specs#geronimo-jta_1.1_spec;1.1.1!geronimo-jta_1.1_spec.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.1!scala-compiler.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.1!scala-compiler.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.1!scala-reflect.jar(src)[0m
@@ -417,7 +383,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.11!jline.jar(doc)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 989ms :: artifacts dl 4919ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3719ms :: artifacts dl 46ms[0m
 [0m[[0mdebug[0m] [0m	report for neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT compile produced in D:\Users\David\Documents\Workspaces\neo4j_test\target\resolution-cache\reports\neo4j-test-neo4j-test$sources_javadoc_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT runtime produced in D:\Users\David\Documents\Workspaces\neo4j_test\target\resolution-cache\reports\neo4j-test-neo4j-test$sources_javadoc_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT test produced in D:\Users\David\Documents\Workspaces\neo4j_test\target\resolution-cache\reports\neo4j-test-neo4j-test$sources_javadoc_2.11-test.xml[0m
@@ -431,4 +397,4 @@
 [0m[[0mdebug[0m] [0m	report for neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT docs produced in D:\Users\David\Documents\Workspaces\neo4j_test\target\resolution-cache\reports\neo4j-test-neo4j-test$sources_javadoc_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT pom produced in D:\Users\David\Documents\Workspaces\neo4j_test\target\resolution-cache\reports\neo4j-test-neo4j-test$sources_javadoc_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for neo4j-test#neo4j-test$sources_javadoc_2.11;1.0-SNAPSHOT scala-tool produced in D:\Users\David\Documents\Workspaces\neo4j_test\target\resolution-cache\reports\neo4j-test-neo4j-test$sources_javadoc_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (989ms resolve - 4919ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (3719ms resolve - 46ms download)[0m

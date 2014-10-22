@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20141022093252"/>
+		date="20141022135207"/>
 	<dependencies>
 		<module organisation="org.neo4j" name="neo4j-kernel">
 			<revision name="2.1.5" status="release" pubdate="20140930124348" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://components.neo4j.org/${project.artifactId}/${project.version}" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="1">
@@ -15,13 +15,13 @@
 				<metadata-artifact status="no" details="" size="29870" time="0" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-kernel\ivy-2.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5.pom"/>
 				<caller organisation="neo4j-test" name="neo4j-test$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="neo4j-kernel" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="1232188" time="1047" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-kernel\docs\neo4j-kernel-2.1.5-javadoc.jar">
+					<artifact name="neo4j-kernel" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1232188" time="0" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-kernel\docs\neo4j-kernel-2.1.5-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5-javadoc.jar"/>
 					</artifact>
 					<artifact name="neo4j-kernel" type="jar" ext="jar" status="no" details="" size="2689768" time="0" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-kernel\jars\neo4j-kernel-2.1.5.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5.jar"/>
 					</artifact>
-					<artifact name="neo4j-kernel" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1711881" time="1077" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-kernel\srcs\neo4j-kernel-2.1.5-sources.jar">
+					<artifact name="neo4j-kernel" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1711881" time="0" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-kernel\srcs\neo4j-kernel-2.1.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/neo4j/neo4j-kernel/2.1.5/neo4j-kernel-2.1.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -29,16 +29,16 @@
 		</module>
 		<module organisation="org.apache.geronimo.specs" name="geronimo-jta_1.1_spec">
 			<revision name="1.1.1" status="release" pubdate="20080207022654" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="3">
-				<metadata-artifact status="successful" details="" size="2111" time="497" location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\ivy-1.1.1.xml" searched="true" original-local-location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom"/>
+				<metadata-artifact status="successful" details="" size="2111" time="531" location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\ivy-1.1.1.xml" searched="true" original-local-location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\ivy-1.1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.pom"/>
 				<caller organisation="neo4j-test" name="neo4j-test$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="geronimo-jta_1.1_spec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="21755" time="493" location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\srcs\geronimo-jta_1.1_spec-1.1.1-sources.jar">
+					<artifact name="geronimo-jta_1.1_spec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21755" time="0" location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\srcs\geronimo-jta_1.1_spec-1.1.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-sources.jar"/>
 					</artifact>
 					<artifact name="geronimo-jta_1.1_spec" type="jar" ext="jar" status="no" details="" size="16030" time="0" location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\jars\geronimo-jta_1.1_spec-1.1.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar"/>
 					</artifact>
-					<artifact name="geronimo-jta_1.1_spec" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="139682" time="724" location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\docs\geronimo-jta_1.1_spec-1.1.1-javadoc.jar">
+					<artifact name="geronimo-jta_1.1_spec" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="139682" time="0" location="D:\Users\David\.ivy2\cache\org.apache.geronimo.specs\geronimo-jta_1.1_spec\docs\geronimo-jta_1.1_spec-1.1.1-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-javadoc.jar"/>
 					</artifact>
 				</artifacts>
@@ -50,10 +50,10 @@
 				<metadata-artifact status="no" details="" size="28023" time="0" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-primitive-collections\ivy-2.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5.pom"/>
 				<caller organisation="neo4j-test" name="neo4j-test$sources_javadoc_2.11" conf="optional, compile, runtime, runtime-internal" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="neo4j-primitive-collections" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="80350" time="541" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-primitive-collections\srcs\neo4j-primitive-collections-2.1.5-sources.jar">
+					<artifact name="neo4j-primitive-collections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="80350" time="0" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-primitive-collections\srcs\neo4j-primitive-collections-2.1.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5-sources.jar"/>
 					</artifact>
-					<artifact name="neo4j-primitive-collections" type="doc" ext="jar" extra-classifier="javadoc" status="successful" details="" size="407454" time="849" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-primitive-collections\docs\neo4j-primitive-collections-2.1.5-javadoc.jar">
+					<artifact name="neo4j-primitive-collections" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="407454" time="0" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-primitive-collections\docs\neo4j-primitive-collections-2.1.5-javadoc.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/neo4j/neo4j-primitive-collections/2.1.5/neo4j-primitive-collections-2.1.5-javadoc.jar"/>
 					</artifact>
 					<artifact name="neo4j-primitive-collections" type="jar" ext="jar" status="no" details="" size="108631" time="0" location="D:\Users\David\.ivy2\cache\org.neo4j\neo4j-primitive-collections\jars\neo4j-primitive-collections-2.1.5.jar">

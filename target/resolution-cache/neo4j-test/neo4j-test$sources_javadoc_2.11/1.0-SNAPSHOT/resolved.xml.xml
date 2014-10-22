@@ -4,7 +4,7 @@
 		module="neo4j-test$sources_javadoc_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20141022093252"
+		publication="20141022135207"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
